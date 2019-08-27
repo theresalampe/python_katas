@@ -1,6 +1,6 @@
 import unittest
 
-from python_katas.digitalRoot.src.DigitalRoot import DigitalRoot
+from python_katas.digital_root.src.DigitalRoot import DigitalRoot
 
 
 class DigitalRootTest(unittest.TestCase):

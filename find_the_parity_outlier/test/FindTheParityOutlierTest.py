@@ -1,6 +1,6 @@
 import unittest
 
-from python_katas.findTheParityOutlier.src import FindTheParityOutlier
+from python_katas.find_the_parity_outlier.src import FindTheParityOutlier
 
 
 class FindTheParityOutlierTest(unittest.TestCase):
