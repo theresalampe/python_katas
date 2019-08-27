@@ -1,25 +1,25 @@
-import main.decoder.Morsecode as Morsecode
+import python_katas.morse_decoder.main.Morsecode as Morsecode
 
 morse_alphabet = Morsecode.morseAlphabet
 
 
-def encodeValue(letter):
+def encode_value(letter):
     for key, value in morse_alphabet.items():
         if value == letter:
             return key
 
 
-def encodeWord(word):
+def encode_word(word):
     output = ""
     letters = word.split(" ")
     for letter in letters:
-        output += encodeValue(letter)
+        output += encode_value(letter)
     return output
 
 
-def encodeSentence(sentence):
+def encode_sentence(sentence):
     output = []
     words = sentence.split("   ")
     for word in words:
-        output.append(encodeWord(word))
+        output.append(encode_word(word))
     return " ".join(output)
