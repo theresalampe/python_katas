@@ -1,6 +1,6 @@
 import unittest
 
-from python_katas.bitCounting.src import BitCounting
+from python_katas.bit_counting.src import BitCounting
 
 
 class FindTheParityOutlierTest(unittest.TestCase):
